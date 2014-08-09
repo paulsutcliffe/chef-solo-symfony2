@@ -1,0 +1,11 @@
+{
+  "id": "deploy",
+  // generate this with: openssl passwd -1 "plaintextpassword"
+  "password": "$1$qItxLIIV$taT6ckZNJ6A9JBE2a7x5z/",
+  // the below should contain a list of ssh public keys which should
+  // be able to login as deploy
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDecwH0aDglIxIb0wX87hS4QQx8g6BHccsLr0ogHye242WtHkyqlM8MevVZMZ+g7E4EIZwhToZ/ZGQk//k++1P33dLnb9VQIk5a0/vWzAK7UocDe05WY9IiT1/3rIP2fzhrhUouJSHXHHKesdELVWfGSD1zpf78USMgb5g+iG1luh8WFUtw1xGaD0GrkjvGYXAJF2yKZ2gmSjmyIKxmro9VGpwalisRiiOTdPdde+XOdE4ibFcWjlronJF+7XOZuQ75JVNIZoQFQyJSJxLhnd3u2FRGYNC6qGy+s+2yXpA74vynT6vfQ/fNF8u8bznJuh8x9BDzi4oUo1fl1BDg2eO7 paul@kosmyka.com"],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}
+

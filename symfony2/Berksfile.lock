@@ -1,0 +1,48 @@
+{
+  "sources": {
+    "build-essential": {
+      "locked_version": "2.0.5",
+      "git": "https://github.com/opscode-cookbooks/build-essential",
+      "ref": "400968913bfa8a4a5c9783b383c3b63899f2fe72"
+    },
+    "nginx": {
+      "locked_version": "2.7.4"
+    },
+    "sudo": {
+      "locked_version": "2.7.0"
+    },
+    "chef-solo-search": {
+      "locked_version": "0.5.1"
+    },
+    "users": {
+      "locked_version": "1.7.0"
+    },
+    "mysql": {
+      "locked_version": "5.3.6"
+    },
+    "apt": {
+      "locked_version": "2.4.0"
+    },
+    "bluepill": {
+      "locked_version": "2.3.1"
+    },
+    "rsyslog": {
+      "locked_version": "1.12.2"
+    },
+    "ohai": {
+      "locked_version": "2.0.1"
+    },
+    "runit": {
+      "locked_version": "1.5.10"
+    },
+    "yum": {
+      "locked_version": "3.2.2"
+    },
+    "yum-epel": {
+      "locked_version": "0.4.0"
+    },
+    "yum-mysql-community": {
+      "locked_version": "0.1.8"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "description": "Server for deploying Symfony2 Projects",
+  "default_attributes": {
+    "authorization": {
+      "sudo": {
+        // everyone in the group sysadmin gets sudo rights
+        "groups": ["sysadmin"],
+        // the deploy user specifically gets sudo rights
+        "users": ["deploy"],
+        // whether a user with sudo rights has to enter their
+        // password when using sudo
+        "passwordless": "false"
+      }
+    }
+  },
+  "json_class": "Chef::Role",
+    "run_list": [
+    // for building things
+    "build-essential",
+    // this is needed for users to work
+    "chef-solo-search",
+    // setup standard sys admin users
+    "users::sysadmins",
+    // make the server look pretty
+    "look_and_feel-tlq",
+    // make sure deploy user has sudo rights
+    "sudo"
+    ],
+    "chef_type": "role",
+    "override_attributes": {
+  }
+}
