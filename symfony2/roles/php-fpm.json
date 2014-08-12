@@ -1,0 +1,16 @@
+{
+  "name": "php-fpm",
+  "description": "Install php-fpm",
+  "override_attributes": {
+    "php-fpm": {
+      "pools": {
+        "name": "www"
+      }
+    }
+  },
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[php-fpm]"
+  ],
+  "chef_type": "role"
+}

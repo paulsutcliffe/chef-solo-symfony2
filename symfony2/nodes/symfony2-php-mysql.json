@@ -4,6 +4,8 @@
   [
    "role[server]",
    "role[nginx]",
-   "role[mysql-server]"
+   "role[mysql-server]",
+   "role[php]",
+   "role[php-fpm]"
   ]
 }
