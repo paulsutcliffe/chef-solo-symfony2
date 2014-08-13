@@ -6,6 +6,7 @@
    "role[nginx]",
    "role[mysql-server]",
    "role[php]",
-   "role[php-fpm]"
+   "role[php-fpm]",
+   "recipe[composer]"
   ]
 }

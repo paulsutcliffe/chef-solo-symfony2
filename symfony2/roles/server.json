@@ -25,7 +25,10 @@
     // make the server look pretty
     "look_and_feel-tlq",
     // make sure deploy user has sudo rights
-    "sudo"
+    "sudo",
+    // lock down ssh, install firewall etc
+    "basic_security-tlq",
+    "git"
     ],
     "chef_type": "role",
     "override_attributes": {

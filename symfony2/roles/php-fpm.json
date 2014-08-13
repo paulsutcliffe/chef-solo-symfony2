@@ -3,9 +3,12 @@
   "description": "Install php-fpm",
   "override_attributes": {
     "php-fpm": {
-      "pools": {
-        "name": "www"
-      }
+      "pools": [
+        {
+          "name": "www",
+          "listen": "127.0.0.1:9000"
+        }
+      ]
     }
   },
   "json_class": "Chef::Role",

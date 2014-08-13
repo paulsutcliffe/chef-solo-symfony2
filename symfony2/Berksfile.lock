@@ -26,6 +26,15 @@
     "php-fpm": {
       "locked_version": "0.6.10"
     },
+    "git": {
+      "locked_version": "4.0.2"
+    },
+    "php5-fpm": {
+      "locked_version": "0.2.0"
+    },
+    "composer": {
+      "locked_version": "1.0.3"
+    },
     "apt": {
       "locked_version": "2.4.0"
     },
@@ -64,6 +73,9 @@
     },
     "iis": {
       "locked_version": "2.1.2"
+    },
+    "dmg": {
+      "locked_version": "2.2.0"
     }
   }
 }
