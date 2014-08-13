@@ -3,12 +3,17 @@
   "description": "Install php from source",
   "override_attributes": {
     "php": {
-      "install_method": "source"
+      "install_method": "source",
+      "directives": {
+        "ini_settings": {
+          "date.timezone": "Europe/Zurich"
+        }
+      }
     }
   },
   "json_class": "Chef::Role",
   "run_list": [
-    "recipe[php]"
+    "recipe[chef-php]"
   ],
   "chef_type": "role"
 }
