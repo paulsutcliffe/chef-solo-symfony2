@@ -7,6 +7,7 @@
    "role[mysql-server]",
    "role[php]",
    "role[php-fpm]",
-   "recipe[composer]"
+   "recipe[composer]",
+   "role[onddo_proftpd]"
   ]
 }

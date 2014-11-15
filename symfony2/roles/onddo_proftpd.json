@@ -1,0 +1,20 @@
+{
+   "name": "onddo_proftpd",
+   "description": "ProFtpd FTP Server",
+   "default_attributes": {
+     "proftp": {
+       "conf": {
+         "use_ipv6":false,
+         "ident_lookups":false,
+         "server_name":"Business Solutions for you"
+       }
+     }
+   },
+   "json_class": "Chef::Role",
+   "run_list": [
+        "onddo_proftpd"
+   ],
+   "chef_type": "role"
+}
+
+

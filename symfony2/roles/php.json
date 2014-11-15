@@ -4,10 +4,11 @@
   "override_attributes": {
     "php": {
       "install_method": "source",
-      "ini_settings": {
+      "directives": {
         "date.timezone": "Europe/Zurich",
-        "memory_limit": "128MB",
-        "upload_max_filesize": "32MB"
+        "memory_limit": "128M",
+        "upload_max_filesize": "32M",
+        "post_max_size": "32M"
       }
     }
   },

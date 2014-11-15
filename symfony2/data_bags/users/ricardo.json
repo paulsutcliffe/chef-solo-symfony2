@@ -1,0 +1,10 @@
+{
+  "id": "ricardo",
+  // generate this with: openssl passwd -1 "plaintextpassword"
+  "password": "$1$OPZr.aNo$UU1068Av2m.hmppbSgbAD.",
+  // the below should contain a list of ssh public keys which should
+  // be able to login as deploy
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvAwuWWlnKga4COEvPv5u3UxwTAJKvefPvWezoqQ7aJhcGdDMI5e3F+qFpt1IQFG3yhFGsD2suCB6j7n5/+uBzooBU2wNNbDDg55fBQHBewdFhPUld1st9vH3CswG661NSMs9jg1wslwhGNOKEPcJWnWzVvj1kFZ37Xej3+da+yL5nMUCPl7O4VzrDZUPBA/bGNvgcHeazceFQFjxGVeTTjSfGcHxuu1RdJCKAIt4eXuImr//+deF4Sr3NBsBNLRhtdqvRymIUajY1Mg2C1lr/2zyGWPyjZ6ZTmzxEUn69aWibB4+JqCkvQf9ajl8F8oyhsa3pQ7pIS0TjNLfH/5HD ricardo.castaneda@frontcrush.com"],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}

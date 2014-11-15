@@ -7,7 +7,7 @@
         // everyone in the group sysadmin gets sudo rights
         "groups": ["sysadmin"],
         // the deploy user specifically gets sudo rights
-        "users": ["deploy"],
+        "users": ["deploy, paul, rmedinap, ricardo"],
         // whether a user with sudo rights has to enter their
         // password when using sudo
         "passwordless": "false"

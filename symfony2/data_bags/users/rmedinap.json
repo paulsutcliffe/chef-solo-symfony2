@@ -1,0 +1,11 @@
+{
+  "id": "rmedinap",
+  // generate this with: openssl passwd -1 "plaintextpassword"
+  "password": "$1$.YbObVS8$3dm66AkLMbBjJ6auINgVZ1",
+  // the below should contain a list of ssh public keys which should
+  // be able to login as deploy
+  "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMA3wTWWpBNhxm10cwH2QcqbHl10a3IKsh0wMlcIMdqvI8l2ACd+UgpDx51xJC25a0t7uviBv+N5zYvlZ3DiL4TYBJEMwQa+OAx2XheJXLll8f+wWejkWwwS/d6XM58Ja376EYrIwpuU0een/ujkldlxkm84r+d1yqSKTkHxqxVkTdHFpHkpysrx3AE+mAs9BAKonhmfBzpZZedKgmPtDWPfinvQhQVeqkkSmTT1X/Jbh9S7MYM1SjRwNkqkFM5zJL6SwLzTvA52hGLRbLWY+B7p4iXNxJuOOROy/pD6GlRPIdGcUVqTU4ucZGi7LAhmshXHaLRu71QhuXjP3A4H0J rafa@MacBook-Pro-de-Rafa.local"],
+  "groups": [ "sysadmin"],
+  "shell": "\/bin\/bash"
+}
+

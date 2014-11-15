@@ -1,7 +1,7 @@
 {
-  "id": "christian",
+  "id": "paul",
   // generate this with: openssl passwd -1 "plaintextpassword"
-  "password": "$1$71AZhxdH$yE.Atat9r/eQwAKA1hCAI.",
+  "password": "$1$AL8ZOJHG$WiierpjRYO64GDeRsXFdT1",
   // the below should contain a list of ssh public keys which should
   // be able to login as deploy
   "ssh_keys": ["ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDax28TDxeAAwR4KdXXIRNere65WBEOu+RqoGD8eS/wmUnwVHdUyNfROyEdPJUpvbtmQv32mSumkZcfvRlj8XImqq87gCQt0RENmRisqnKzjcPsWmxLmgdlaN/kEwalLzGpzcwt5twLstaLShlkCYOYvY82YzV8U8y1YaN2gIPTOwecbuoX1YknSiM5Q6tijvIUfNQWdF9W7Q/Ef92lhX4ZqMQzlluDdrcVj6Z3Ka6uvN92ZVfWmORWr1/WzRy3qeNXJ1vpX43L+mBzcGSFGO6ez0W3krpqjmt3q/uIPJRyk7NSibiKe2npYjjndmeEEYFD1KW+u6aJ86hz48jWZ6c9 christian@Mac-mini.local"],

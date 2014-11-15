@@ -2,6 +2,9 @@
    "name": "nginx-server",
    "description": "Nginx server",
    "default_attributes": {
+     "nginx": {
+       "client_max_body_size": "8M"
+     }
 
    },
    "json_class": "Chef::Role",
