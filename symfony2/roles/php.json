@@ -7,8 +7,8 @@
       "directives": {
         "date.timezone": "Europe/Zurich",
         "memory_limit": "128M",
-        "upload_max_filesize": "32M",
-        "post_max_size": "32M"
+        "upload_max_filesize": "100M",
+        "post_max_size": "100M"
       }
     }
   },

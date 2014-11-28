@@ -38,6 +38,9 @@
     "onddo_proftpd": {
       "locked_version": "1.0.0"
     },
+    "imagemagick": {
+      "locked_version": "0.2.3"
+    },
     "apt": {
       "locked_version": "2.4.0"
     },

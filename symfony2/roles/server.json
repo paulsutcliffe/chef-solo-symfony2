@@ -28,6 +28,7 @@
     "sudo",
     // lock down ssh, install firewall etc
     "basic_security-tlq",
+    "imagemagick",
     "git"
     ],
     "chef_type": "role",
